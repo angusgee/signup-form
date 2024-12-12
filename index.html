@@ -25,15 +25,45 @@
             <div class="right">
                 <div class="heading-section">
                     <h3 class="heading-h3">
-
                         This is not a real online service! You know you need something
                         like this in your life to help you realize your deepest dreams.
                         <br>Sign up <i>now</i> to get started.
                     </h3>
                     <h3 class="heading-h3">You <i>know</i> you want to.</h3>
                 </div>
-                <div class="form-section"></div>
-                <div class="btn-section"></div>
+                <div class="form-section">
+                    <h3 class="legend">Let's do this!</h3>
+                    <form action="https://httpbin.org/post" method="post">
+                        <p class="firstname">
+                            <label for="firstname">First name</label>
+                            <input type="text" name="firstname" id="firstname">
+                        </p>
+                        <p class="lastname">
+                            <label for="lastname">Last name</label>
+                            <input type="text" name="lastname" id="lastname">
+                        </p>
+                        <p class="email">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </p>
+                        <p class="number">
+                            <label for="number">Phone number</label>
+                            <input type="tel" name="number" id="number" pattern="[0-9]*" inputmode="numeric">
+                        </p>
+                        <p class="password">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </p>
+                        <p class="confirm-password">
+                            <label for="confirm-password">Confirm password</label>
+                            <input type="password" name="confirm-password" id="confirm-password">
+                        </p>
+                    </form>
+                </div>
+                <div class="btn-section">
+                    <!-- <p class="submit-btn"><button type="submit">Submit</button></p>
+                    <p class="login-text">Already have an account? Log in</p> -->
+                </div>
             </div>
         </div>
     </main>
