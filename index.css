@@ -88,7 +88,7 @@ main {
 }
 
 .left {
-    background-image: url("./assets/paulo-silva-pU2VRZ63EKc-unsplash.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%), url("./assets/paulo-silva-pU2VRZ63EKc-unsplash.jpg");
     background-size: cover;
     flex: 0.38;
     position: relative;
