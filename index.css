@@ -115,9 +115,9 @@ button,
 input,
 label {
     font-family: inherit;
-    font-size: 70%;
+    font-size: 0.62rem;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 2px;
     width: 200px;
     display: block;
@@ -129,7 +129,8 @@ input:invalid {
 
 input {
     border-radius: 0.25rem;
-    border: 1px solid #ccc;
+    border: 1px solid #e0e0e0;
+    padding: 0.3rem;
 }
 
 form {
