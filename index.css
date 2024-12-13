@@ -115,7 +115,7 @@ button,
 input,
 label {
     font-family: inherit;
-    font-size: 80%;
+    font-size: 70%;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
@@ -133,7 +133,6 @@ input {
 }
 
 form {
-    /* background-color: aqua; */
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
