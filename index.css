@@ -10,8 +10,7 @@
 
 :root {
     --clr-primary: #596d48;
-    --clr-secondary: #476986;
-    --clr-warning: #84594d;
+    --clr-warning: #b11d01;
     --clr-off-white: #f9fafb;
     --clr-black-bg: #212121;
 
@@ -124,16 +123,15 @@ button,
 input,
 label {
     font-family: inherit;
-    font-size: 0.62rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
     width: 200px;
     display: block;
 }
 
-input:invalid {
-    border: #84594d 1px;
+label {
+    text-transform: uppercase;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 input {
@@ -152,6 +150,12 @@ form {
 #email,
 #password {
     margin-right: 2.5rem;
+}
+
+#number:user-invalid,
+#email:user-invalid {
+    border: 2px solid var(--clr-warning);
+    outline: none;
 }
 
 /**** BTN SECTION ****/

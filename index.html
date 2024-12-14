@@ -36,19 +36,19 @@
                     <form action="https://httpbin.org/post" method="post">
                         <p class="firstname">
                             <label for="firstname">First name</label>
-                            <input type="text" name="firstname" id="firstname">
+                            <input type="text" name="firstname" id="firstname" required>
                         </p>
                         <p class="lastname">
                             <label for="lastname">Last name</label>
-                            <input type="text" name="lastname" id="lastname">
+                            <input type="text" name="lastname" id="lastname" required>
                         </p>
                         <p class="email">
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </p>
                         <p class="number">
                             <label for="number">Phone number</label>
-                            <input type="tel" name="number" id="number" pattern="[0-9]*" inputmode="numeric">
+                            <input type="tel" name="number" id="number" pattern="[0-9]*" inputmode="numeric" required>
                         </p>
                         <p class="password">
                             <label for="password">Password</label>
@@ -56,14 +56,14 @@
                         </p>
                         <p class="confirm-password">
                             <label for="confirm-password">Confirm password</label>
-                            <input type="password" name="confirm-password" id="confirm-password">
+                            <input type="password" name="confirm-password" id="confirm-password" required>
                         </p>
-                    </form>
                 </div>
                 <div class="btn-section">
                     <p><button type="submit">Create Account</button></p>
                     <p>Already have an account? <a href="/">Log in</a></p>
                 </div>
+                </form>
             </div>
         </div>
     </main>
